@@ -1,0 +1,11 @@
+
+    .photos-section {
+        text-align: center; /* Center the images within the container */
+    }
+
+    .photos-section img {
+        width: calc(23.33% - 10px); /* Set the width of each image to one-third of the container with some margin */
+        height: auto; /* Maintain aspect ratio */
+        margin: 5px; /* Add some margin between images */
+        box-sizing: border-box; /* Include padding and border in the total width and height */
+    }
